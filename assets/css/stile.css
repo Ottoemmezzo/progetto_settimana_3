@@ -1,0 +1,104 @@
+body{
+    width:80%;
+    height:800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#calcolatrice{
+    
+}
+#visore{
+    width:200px;
+    grid-area:vis;
+    font-size:2rem;
+}
+#calcolatrice button:nth-child(2){
+    grid-area:k1;
+
+}
+#calcolatrice button:nth-child(3){
+    grid-area:k2;
+
+}
+#calcolatrice button:nth-child(4){
+    grid-area:k3;
+
+}
+#calcolatrice button:nth-child(5){
+    grid-area:k4;
+
+}
+#calcolatrice button:nth-child(6){
+    grid-area:k5;
+
+}
+#calcolatrice button:nth-child(7){
+    grid-area:k6;
+
+}
+#calcolatrice button:nth-child(8){
+    grid-area:k7;
+
+}
+#calcolatrice button:nth-child(9){
+    grid-area:k8;
+
+}
+#calcolatrice button:nth-child(10){
+    grid-area:k9;
+
+}
+#calcolatrice button:nth-child(11){
+    grid-area:k0;
+
+}
+#calcolatrice button:nth-child(12){
+    grid-area:kP;
+
+}
+#calcolatrice button:nth-child(13){
+    grid-area:kC;
+
+}
+#calcolatrice button:nth-child(14){
+    grid-area:kM;
+
+}
+#calcolatrice button:nth-child(15){
+    grid-area:kD;
+
+}
+#calcolatrice button:nth-child(16){
+    grid-area:kX;
+
+}
+#calcolatrice button:nth-child(17){
+    grid-area:kV;
+
+}
+#calcolatrice button:nth-child(18){
+    grid-area:kU;
+    width:206px;
+
+}
+
+.tasto{
+    width:50px;
+    font-size:2rem;
+}
+
+
+
+
+
+#calcolatrice{
+    width:10%;
+    display:grid;
+    grid-template-areas: "vis vis vis vis"
+                         "k7 k8 k9 kD"
+                         "k4 k5 k6 kX"
+                         "k1 k2 k3 kM"
+                         "kC k0 kV kP "
+                         "kU kU kU kU";
+}
